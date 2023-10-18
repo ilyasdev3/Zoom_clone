@@ -10,7 +10,7 @@ const Home = () => {
     router(`/room/${roomCode}`);
   };
   return (
-    <div>
+    <div className="container">
       <form action="" onSubmit={handleFormSubmit}>
         <div>
           <label htmlFor="">Enter room code</label>
