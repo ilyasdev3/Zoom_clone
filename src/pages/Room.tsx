@@ -28,8 +28,8 @@ const Room: React.FC = () => {
   }
 
   const myMeeting = async () => {
-    const appID: any = 1827308913;
-    const serverSecret: any = "bde4c13684bdbca188b7e77de275c344";
+    const appID: any = 1827308913; // replace with your own appID
+    const serverSecret: any = "bde4c13684bdbca188b7e77de275c344"; // replace with your own serverSecret
     const kitToken: string = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
       serverSecret,
